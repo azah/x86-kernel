@@ -1,0 +1,10 @@
+[package]
+name = "wizard_os"
+version = "0.1.0"
+authors = ["Andrew Zah <zah@andrewzah.com"]
+
+[dependencies]
+rlibc = "1.0"
+
+[lib]
+crate-type = ["staticlib"]
